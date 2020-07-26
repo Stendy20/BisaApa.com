@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C574B8724CD9735008B859A /* DanaMendesakCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C574B8624CD9735008B859A /* DanaMendesakCollectionViewCell.swift */; };
+		8C574B8924CDC330008B859A /* PilihanBisaapaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C574B8824CDC330008B859A /* PilihanBisaapaCollectionViewCell.swift */; };
 		8CAE980324CD82FD004B1755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE980224CD82FD004B1755 /* AppDelegate.swift */; };
 		8CAE980524CD82FD004B1755 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE980424CD82FD004B1755 /* SceneDelegate.swift */; };
 		8CAE980724CD82FD004B1755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE980624CD82FD004B1755 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		8CAE981224CD82FD004B1755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE981024CD82FD004B1755 /* LaunchScreen.storyboard */; };
 		8CAE981D24CD82FD004B1755 /* BisaApa_comTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE981C24CD82FD004B1755 /* BisaApa_comTests.swift */; };
 		8CAE982824CD82FD004B1755 /* BisaApa_comUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE982724CD82FD004B1755 /* BisaApa_comUITests.swift */; };
+		8CAE983724CD8691004B1755 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE983624CD8691004B1755 /* Home.storyboard */; };
+		8CAE983924CD86A2004B1755 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE983824CD86A2004B1755 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8CAE97FF24CD82FD004B1755 /* BisaApa.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BisaApa.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C574B8624CD9735008B859A /* DanaMendesakCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanaMendesakCollectionViewCell.swift; sourceTree = "<group>"; };
+		8C574B8824CDC330008B859A /* PilihanBisaapaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilihanBisaapaCollectionViewCell.swift; sourceTree = "<group>"; };
+		8CAE97FF24CD82FD004B1755 /* Bisaapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bisaapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE980224CD82FD004B1755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CAE980424CD82FD004B1755 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8CAE980624CD82FD004B1755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		8CAE982324CD82FD004B1755 /* BisaApa.comUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BisaApa.comUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE982724CD82FD004B1755 /* BisaApa_comUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BisaApa_comUITests.swift; sourceTree = "<group>"; };
 		8CAE982924CD82FD004B1755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAE983624CD8691004B1755 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8CAE983824CD86A2004B1755 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +99,7 @@
 		8CAE980024CD82FD004B1755 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CAE97FF24CD82FD004B1755 /* BisaApa.com.app */,
+				8CAE97FF24CD82FD004B1755 /* Bisaapa.app */,
 				8CAE981824CD82FD004B1755 /* BisaApa.comTests.xctest */,
 				8CAE982324CD82FD004B1755 /* BisaApa.comUITests.xctest */,
 			);
@@ -103,11 +111,12 @@
 			children = (
 				8CAE980224CD82FD004B1755 /* AppDelegate.swift */,
 				8CAE980424CD82FD004B1755 /* SceneDelegate.swift */,
-				8CAE980624CD82FD004B1755 /* ViewController.swift */,
-				8CAE980824CD82FD004B1755 /* Main.storyboard */,
 				8CAE980E24CD82FD004B1755 /* Assets.xcassets */,
 				8CAE981024CD82FD004B1755 /* LaunchScreen.storyboard */,
 				8CAE981324CD82FD004B1755 /* Info.plist */,
+				8CAE983524CD865B004B1755 /* Home */,
+				8CAE980624CD82FD004B1755 /* ViewController.swift */,
+				8CAE980824CD82FD004B1755 /* Main.storyboard */,
 				8CAE980B24CD82FD004B1755 /* BisaApa_com.xcdatamodeld */,
 			);
 			path = BisaApa.com;
@@ -131,6 +140,17 @@
 			path = BisaApa.comUITests;
 			sourceTree = "<group>";
 		};
+		8CAE983524CD865B004B1755 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE983624CD8691004B1755 /* Home.storyboard */,
+				8CAE983824CD86A2004B1755 /* HomeViewController.swift */,
+				8C574B8624CD9735008B859A /* DanaMendesakCollectionViewCell.swift */,
+				8C574B8824CDC330008B859A /* PilihanBisaapaCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +168,7 @@
 			);
 			name = BisaApa.com;
 			productName = BisaApa.com;
-			productReference = 8CAE97FF24CD82FD004B1755 /* BisaApa.com.app */;
+			productReference = 8CAE97FF24CD82FD004B1755 /* Bisaapa.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8CAE981724CD82FD004B1755 /* BisaApa.comTests */ = {
@@ -238,6 +258,7 @@
 				8CAE981224CD82FD004B1755 /* LaunchScreen.storyboard in Resources */,
 				8CAE980F24CD82FD004B1755 /* Assets.xcassets in Resources */,
 				8CAE980A24CD82FD004B1755 /* Main.storyboard in Resources */,
+				8CAE983724CD8691004B1755 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C574B8924CDC330008B859A /* PilihanBisaapaCollectionViewCell.swift in Sources */,
+				8C574B8724CD9735008B859A /* DanaMendesakCollectionViewCell.swift in Sources */,
+				8CAE983924CD86A2004B1755 /* HomeViewController.swift in Sources */,
 				8CAE980724CD82FD004B1755 /* ViewController.swift in Sources */,
 				8CAE980324CD82FD004B1755 /* AppDelegate.swift in Sources */,
 				8CAE980524CD82FD004B1755 /* SceneDelegate.swift in Sources */,
@@ -446,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stendy.BisaApa-com";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bisaapa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stendy.BisaApa-com";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bisaapa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
